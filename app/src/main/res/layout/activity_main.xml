@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonWelcome"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:text="Makhmed Abylaikhan"
+        android:textColor="#FFEB3B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Website of Makhmed Abylaikhan"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="361dp"
+        android:src="@drawable/img" />
+
+    <Button
+        android:id="@+id/buttonProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:text="My Profile"/>
+
+    <Button
+        android:id="@+id/buttonLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="italic|bold"
+        android:text="My Link"/>
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:textStyle="italic|bold"
+        android:text="Open Camera"/>
+
+</LinearLayout>
+
