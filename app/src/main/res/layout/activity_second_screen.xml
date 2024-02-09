@@ -17,6 +17,10 @@
             android:layout_margin="10dp"
             android:textSize="20dp"
             android:justificationMode="inter_word"
-            android:text="My name is Azat. I'm 19 years old student at IITU university, and my major is Cyber security. Nowadays training for SQL Injections."/>
+            android:text="Abylaykhan is a talented young programmer whose passion for technology began at a young age. Born and raised in the modern digital world, where he quickly discovered his passion for computers and programming.
+
+From the very beginning of his passion for programming, Abylaykhan showed outstanding talent and a desire for excellence. He diligently expanded various programming languages, experimented with developed programs and web applications, and strived to constantly grow in his skills.
+
+Every year his skills and experience only ventilated. At the age of 19, Abylaykhan had already become an experienced programmer, capable of creating innovative software solutions and web applications."/>
     </ScrollView>
 </LinearLayout>
