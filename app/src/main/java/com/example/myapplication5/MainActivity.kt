@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val btnProfile = findViewById<Button>(R.id.buttonLink)
         btnProfile.setOnClickListener {
             val newLink = Intent(Intent.ACTION_VIEW)
-            newLink.data = Uri.parse("https://abekekor.github.io//")
+            newLink.data = Uri.parse("https://github.com/asmiliano/Android-Studio-Labs")
             startActivity(newLink)
         }
 
